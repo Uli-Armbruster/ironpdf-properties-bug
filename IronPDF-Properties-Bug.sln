@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronPdfV4", "IronPdfV4\IronPdfV4.csproj", "{9AF7FBEF-7741-473F-BBCC-7511495580F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronPdfV5", "IronPdfV5\IronPdfV5.csproj", "{2CBB73FB-FE07-4F32-B594-C9A46B46CCD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PDFs", "PDFs", "{88EDD2C8-4AB3-4E74-865D-3DB1C2F2409B}"
+	ProjectSection(SolutionItems) = preProject
+		default.pdf = default.pdf
+		write-protected.pdf = write-protected.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AF7FBEF-7741-473F-BBCC-7511495580F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF7FBEF-7741-473F-BBCC-7511495580F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF7FBEF-7741-473F-BBCC-7511495580F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF7FBEF-7741-473F-BBCC-7511495580F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBB73FB-FE07-4F32-B594-C9A46B46CCD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBB73FB-FE07-4F32-B594-C9A46B46CCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBB73FB-FE07-4F32-B594-C9A46B46CCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBB73FB-FE07-4F32-B594-C9A46B46CCD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E1CED92-CE6D-4541-A0AA-6D7A8DD27DD7}
+	EndGlobalSection
+EndGlobal
